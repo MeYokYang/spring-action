@@ -41,7 +41,7 @@
 
 3. Git
 
-   项目使用 Git 进行管理。master、dev、meyok 分别为主分支、开发分支、meyok 用户分支：
+   项目使用 Git 进行管理。main<sup id="MainBranchName">[3](#footnote3)</sup>、dev、meyok 分别为主分支、开发分支、meyok 用户分支：
 
    ```shell
    cd ${project_directory}
@@ -56,3 +56,5 @@
 <a id="footnote1">1</a>: [美]Craig Walls.Spring in Action(5th Edition)[M].张卫滨.北京:人民邮电出版社.yyyy-MM-dd:1-xxx.[↩](#SpringInAction)
 
 <a id="footnote2">2</a>: 本文 Shell 中涉及项目主目录时，使用 Shell 环境变量`${project_directory}`代替。[↩](#ProjectDirectory)
+
+<a id="footnote3">3</a>: 本项目使用的 git 版本不支持初始化项目时指定主分支名，主分支名按照默认配置被初始化为 master，而本项目在被上传至远程仓库时，主分支名被修改为 main。[↩](#MainBranchName)
