@@ -1,5 +1,3 @@
-#! /bin/bash
-
 #!/bin/bash
 # Program:
 #	构建 Maven 生命周期，以及运行 jar 包。
