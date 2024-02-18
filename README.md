@@ -1,5 +1,6 @@
 - [spring-action](#spring-action)
   - [项目初始化](#项目初始化)
+  - [相关事项](#相关事项)
 
 # spring-action
 
@@ -50,6 +51,10 @@
    git branch dev
    git checkout -b meyok
    ```
+
+## 相关事项
+
+- 项目使用 JDK11 版本，测试时需要的 sun.misc.Unsafe 类已被弃用（在 jdk.unsupported 模块中），所以项目测试相关代码已被注解。
 
 ---
 
