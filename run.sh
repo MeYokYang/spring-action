@@ -18,7 +18,7 @@ else
             echo "Not yet supported."
             ;;
         "run")
-            mvn clean package >> /dev/null
+            mvn clean package
             JAR_NAME=$(ls -l ./target | grep -m 1 '^.*\.jar$' | cut -d ' ' -f 9-9)
             java -jar ./target/${JAR_NAME}
             ;;
